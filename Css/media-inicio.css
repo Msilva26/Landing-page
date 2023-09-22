@@ -1,0 +1,88 @@
+/*Proporção corpo da pagina*/
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
+/*Referente a proporção do slider*/
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    .icons img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .icons a {
+        font-size: 3vw;
+    }
+
+    .icones-top .frase-promo{
+        font-size: 15px;
+    }
+
+    .informações-sobre {
+        font-size: 10px;
+    }
+}
